@@ -1,5 +1,5 @@
 var http = new XMLHttpRequest()
-var url = '/'
+var url = 'https://weather-app-fad.herokuapp.com/'
 
 function getActualWeather(data, cb) {
   http.open('POST', url, true)
